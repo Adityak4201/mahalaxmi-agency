@@ -4,6 +4,7 @@ import './index.css';
 import './components/animate-text.css';
 import './components/normalize.css';
 import './components/responsive.css';
+import './components/style_mudra.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
