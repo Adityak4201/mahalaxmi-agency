@@ -1,6 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import './components/animate-text.css';
+import './components/normalize.css';
+import './components/responsive.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
