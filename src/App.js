@@ -12,9 +12,9 @@ function App() {
       <BrowserRouter>
         <Header />
         <Switch>
-          <Route exact to="/" component={Home} />
-          <Route to="/about" component={About} />
-          <Route to="/contact" component={Contact} />
+          <Route exact path="/" component={Home} />
+          <Route path="/about" component={About} />
+          <Route path="/contact" component={Contact} />
         </Switch>
         <Footer />
       </BrowserRouter>
