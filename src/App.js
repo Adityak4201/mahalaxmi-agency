@@ -7,6 +7,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Partners from "./pages/Partners";
 import LoanProcessing from "./pages/LoanProcessing";
+import GoldLoan from "./pages/GoldLoan";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/contact" component={Contact} />
           <Route path="/partners" component={Partners} />
           <Route path="/loan-processing" component={LoanProcessing} />
+          <Route path="/gold-loan" component={GoldLoan} />
         </Switch>
         <Footer />
       </BrowserRouter>
