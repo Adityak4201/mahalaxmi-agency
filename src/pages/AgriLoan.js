@@ -1,7 +1,7 @@
 import React from "react";
 import RightNavBar from "../components/RightNavBar";
 
-const GoldLoan = () => {
+const AgriLoan = () => {
   return (
     <>
       <div class="breadcrumbs overlay">
@@ -9,7 +9,7 @@ const GoldLoan = () => {
           <div class="row">
             <div class="bread-inner">
               <div class="col-xs-12">
-                <h2>Gold Loan</h2>
+                <h2>Agriculture Loan</h2>
                 <ul class="bread-list">
                   <li>
                     <a href="/">
@@ -17,7 +17,7 @@ const GoldLoan = () => {
                     </a>
                   </li>
                   <li class="active">
-                    <a href="/gold-loan.html">Gold Loan</a>
+                    <a href="/agriculture-loan.html">Agriculture Loan</a>
                   </li>
                 </ul>
               </div>
@@ -25,39 +25,35 @@ const GoldLoan = () => {
           </div>
         </div>
       </div>
+
       <section class="about section" style={{ paddingTop: "70px" }}>
         <div class="container">
           <div class="row">
             <div class="col-md-9 col-xs-9">
               <div class="about-content">
                 <h3>
-                  Gold <span>Loan</span>
+                  Agriculture <span>Loan</span>
                 </h3>
                 <div class="text">
                   <p>
-                    Pledge your Gold Ornaments or Jewellery and avail the
-                    Highest Amount per gram of Gold. Depending on the net weight
-                    and purity of the gold, cash will be disbursed quickly.
+                    If you are looking for finance to buy your vehicle, you have
+                    come to the right place. We offer you hassle-free Vehicle
+                    Loans with the best terms for funding at the most attractive
+                    rates in India..
+                  </p>
+                  <br />
+                  <h4>Key Features:</h4>
+                  <p>
+                    - Loans for purchase of Tractors and farming equipments
                     <br />
-                    We have various schemes that will suit for your needs.
-                    Please visit your nearest branch of Chemmanur Credits to
-                    avail Gold Loan.
+                    - Quick processing and hassle-free documentation
                     <br />
-                    - Interest will be charged @12.00%
+                    - Convenient and easy repayment options
                     <br />
-                    - Rate of Gold of 22 Carrat as per market rate.
-                    <br />
-                    - Bank is financing against gold ornaments only.
-                    <br />
-                    - Valuation charges will be 0.25% of loan amount.
-                    <br />
-                    - Processing charges will be 0.50% of loan amount.
-                    <br />
-                    - Loan can be granted @50% of the value of Gold Jewellery as
-                    per valuation.
+                    - Enabling ownership opportunities for the Rural-Agri class
                     <br />
                   </p>
-                  <img src="/assets/img/gold.jpg" alt="Gold Loan" />
+                  <img src="/assets/img/agri.jpg" alt="Agriculture" />
                 </div>
               </div>
             </div>
@@ -69,4 +65,4 @@ const GoldLoan = () => {
   );
 };
 
-export default GoldLoan;
+export default AgriLoan;
